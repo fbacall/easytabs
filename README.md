@@ -41,3 +41,4 @@ Example
 
 ```
 
+JSFiddle: http://jsfiddle.net/DkqMb/2/

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="easytabs.css" media="all" rel="stylesheet" type="text/css" />
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="easytabs.js" type="text/javascript"></script>
+  <title>EasyTabs example</title>
+</head>
+<body>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #eeeeee;
+    }
+
+    div.wrapper {
+      width: 900px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      padding: 20px;
+    }
+  </style>
+  <div class="wrapper">
+  <h1>EasyTabs</h1>
+
+  <script>
+    $(function () {
+      $('.easytabs-container').easyTabs();
+    });    
+  </script>
+  <div class="easytabs-container">
+    <ul class="easytabs-nav">
+      <li>Tab 1</li>
+      <li>Tab 2</li>
+    </ul>
+    <div class="easytabs-pane easytabs-container">
+      Content of tab 1
+      <ul class="easytabs-nav">
+        <li>Tab A</li>
+        <li>Tab B</li>
+        <li>Tab C</li>
+      </ul>
+      <div class="easytabs-pane">
+        Content of tab A
+      </div>
+      <div class="easytabs-pane">
+        Content of tab B
+      </div>
+      <div class="easytabs-pane">
+        Content of tab C
+      </div>
+    </div>
+    <div class="easytabs-pane">
+      Content of tab 2
+    </div>
+  </div>
+  
+  <div class="easytabs-container">
+    <ul class="easytabs-nav">
+      <li>Tab I</li>
+      <li>Tab II</li>
+      <li>Tab III</li>
+    </ul>
+    <div class="easytabs-pane">
+      Content of tab I
+    </div>
+    <div class="easytabs-pane">
+      Content of tab II
+    </div>
+    <div class="easytabs-pane">
+      Content of tab III
+    </div>
+  </div>
+
+
+  </div>
+</body>
+</html>

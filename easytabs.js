@@ -1,6 +1,6 @@
 (function ($) {
 	$.fn.easyTabs = function () {
-		this.each(function(i, container) {
+		return this.each(function(i, container) {
 			$(this).find('> ul.easytabs-nav > li').click(function () {
 				$(container).find('> .easytabs-pane').removeClass('active');
 				$(container).find('> .easytabs-pane:eq(' +  $(this).index() + ')').addClass('active');

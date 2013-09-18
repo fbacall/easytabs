@@ -5,13 +5,13 @@ A simple jQuery plugin for tabs.
 
 Usage
 -----
-The tabs are controlled by a <ul> element of class 'easytabs-nav' and a number of <li> elements, depending on how many tabs you want.
+The tabs are controlled by a `<ul>` element of class `easytabs-nav` and a number of `<li>` elements, depending on how many tabs you want.
 
-Following the <ul> should be a number of block elements of class 'easytabs-pane'. These will contain the content to be displayed when its corresponding tab is clicked. 
+Following the `<ul>` should be a number of block elements of class `easytabs-pane`. These will contain the content to be displayed when its corresponding tab is clicked. 
 
-There should be the same number of 'easytabs-pane' block elements as there are <li> elements in the 'easytabs-nav' <ul>.
+There should be the same number of `easytabs-pane` block elements as there are `<li>` elements in the `easytabs-nav` `<ul>`.
 
-Enable the tab functionality by wrapping everything in a container element and calling 'easyTabs()' on it.
+Enable the tab functionality by wrapping everything in a container element and calling `easyTabs()` on it.
 
 Example
 -------
